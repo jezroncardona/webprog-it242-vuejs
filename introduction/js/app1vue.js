@@ -1,4 +1,4 @@
-const app = Vue.createApp({
+const app1 = Vue.createApp({
    data() {
     return {
      message: "Happy New Year!"
@@ -6,4 +6,4 @@ const app = Vue.createApp({
    }
   })
   
-  app.mount('#app1')
+  app1.mount('#app1')

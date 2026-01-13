@@ -1,4 +1,4 @@
-const app = Vue.createApp({
+const app2 = Vue.createApp({
     data() {
         return {
             manyFoods: [
@@ -14,4 +14,4 @@ const app = Vue.createApp({
     }
 })
 
-app.mount('#app2')
+app2.mount('#app2')
