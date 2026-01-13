@@ -209,18 +209,10 @@
   </div>
 </div>
 
-<h1>Vue Example</h1>
-
-<p>The message is taken from 'data' inside the Vue instance by writing {{ message }} inside the div with id="app".</p>
-
-<div id="app">
-  {{ message }}
-</div>
-
 <div class="body_div" id="gallery">
   <h4>A Simple Gallery</h4>
   <div class="gallery ratio ratio-16x9">
-    <div id="1stcarousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="firstcarousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#first_carousel" data-bs-slide-to="0" class="active"></button>
         <button type="button" data-bs-target="#first_carousel" data-bs-slide-to="1"></button>
@@ -278,9 +270,26 @@
 </div>
 
 
+<h1>Vue Example</h1>
+
+<p>The message is taken from 'data' inside the Vue instance by writing {{ message }} inside the div with id="app".</p>
+
+<div id="app1">
+  {{ message }}
+</div>
+
+<div id="app2">
+
+  <div>
+    <img v-for="x in manyFoods" v-bind:src="x">
+  </div>
+
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-<script src="js/vue.js"></script>
+<script src="js/app1vue.js"></script>
+<script src="js/app2vue.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
