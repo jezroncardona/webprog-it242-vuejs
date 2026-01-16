@@ -37,6 +37,15 @@
     </div>
 </template>
 
-<script></script>
+<script>
+export default {
+  data() {
+    return {
+      name: 'Pears',
+      message: 'I like pears. Peartos!'
+    }
+  }
+};
+</script>
 
 <style src="@/components/css/personalprofile.css"></style>
