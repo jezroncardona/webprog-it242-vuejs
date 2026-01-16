@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/styles.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/stylevue.css?version=0.2">
+  <link href="./css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/stylevue.css?version=0.2">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
@@ -20,7 +20,7 @@
   </div>
 
   <div class="logo-container">
-    <img src="assets/logo.png" alt="The logo of the page. It shows the string 'JDC', in a pixelated stylized manner.">
+    <img src="./assets/logo.png" alt="The logo of the page. It shows the string 'JDC', in a pixelated stylized manner.">
   </div>
   
   <div></div>
@@ -42,7 +42,7 @@
     </div>
 
     <div class="central_profile">
-      <img src="assets/content/profile.png" alt="This is the profile photo of the webpage creator.">
+      <img src="./assets/content/profile.png" alt="This is the profile photo of the webpage creator.">
     </div>
 
     <div class="side_items" id="details">
@@ -154,7 +154,7 @@
             along with using a different API, 'discord.py'.
             It is currently facing revisions from me, as of 01/01/2026.
       
-            <img src="assets/content/jessuchan.jpg" alt="A screenshot showing the profile of the Discord bot 'Jessu'.">
+            <img src="./assets/content/jessuchan.jpg" alt="A screenshot showing the profile of the Discord bot 'Jessu'.">
           </div>
       
           <div class="card">
@@ -165,7 +165,7 @@
             It was built using Java, using the Discord JDA API.
             Compared to 'Jessu', 'Aya' was more modern and used slash commands.
       
-            <img src="assets/content/aya.jpg" alt="A screenshot showing the profile of the Discord bot 'Aya'.">
+            <img src="./assets/content/aya.jpg" alt="A screenshot showing the profile of the Discord bot 'Aya'.">
           </div>
       
         </div>
@@ -270,26 +270,10 @@
 </div>
 
 
-<h1>Vue Example</h1>
-
-<p>The message is taken from 'data' inside the Vue instance by writing {{ message }} inside the div with id="app".</p>
-
-<div id="app1">
-  {{ message }}
-</div>
-
-<div id="app2">
-
-  <div>
-    <img v-for="x in manyFoods" v-bind:src="x">
-  </div>
-
-</div>
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-<script src="js/app1vue.js"></script>
-<script src="js/app2vue.js"></script>
-<script src="js/script.js"></script>
+<script src="./js/app1vue.js"></script>
+<script src="./js/app2vue.js"></script>
+<script src="./js/script.js"></script>
 </body>
 </html>
