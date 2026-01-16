@@ -48,4 +48,4 @@ export default {
 };
 </script>
 
-<style src="@/components/css/personalprofile.css"></style>
+<style src="./css/personalprofile.css"></style>
